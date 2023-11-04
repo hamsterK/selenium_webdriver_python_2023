@@ -7,3 +7,8 @@ from selenium.webdriver.chrome.service import Service as ChromiumService
 with webdriver.Chrome(service=ChromiumService(ChromeDriverManager().install())) as driver:
     driver.get("https://stepik.org/a/104774")
     time.sleep(5)
+
+# close / vs quit
+driver.close()  # close current browser window
+driver.quit()  # close all windows initiated by webdriver in current session
+
