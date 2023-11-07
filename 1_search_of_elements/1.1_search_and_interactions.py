@@ -12,6 +12,6 @@ with webdriver.Chrome() as browser:
     # driver.find_element => element (if not found => NoSuchElementException) / driver.find_elements => list
     # to read WebElement(find_element_ => driver.find_element.text
 
-    # actions: click(), send_keys('input_info'), get_attribute('href(to get links)'), text (get visible text)
+    # actions: click(), send_keys('input_info') (input text), get_attribute('href(to get links)'), text (get visible text)
     # browser.find_element(By.ID, "some_button_id").click()
     
