@@ -1,5 +1,5 @@
 """
-syntax => webdriver.execute)script(script, *args)
+syntax => webdriver.execute_script(script, *args)
 
 .execute_script("return arguments[0].scrollIntoView(true);", element =>
 scroll to make the desired element visible

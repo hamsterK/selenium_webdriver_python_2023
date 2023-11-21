@@ -11,6 +11,7 @@ with webdriver.Chrome() as driver:
     actions.click(button)  # click element
     actions.perform()  # perform listed actions
 
+"""
     actions.drag_and_drop_by_offset(button, -11, 0).perform()  # move element to 100px to the left
     actions.drag_and_drop_by_offset(source, target).perform()
     actions.click_and_hold(button).perform()  # click and hold
@@ -30,5 +31,4 @@ with webdriver.Chrome() as driver:
     actions.scroll_by_amount(x, y)
     actions.scroll_from_origin(scroll_origin=element, x, y)
     actions.scroll_to_element(element)
-
-
+"""
